@@ -21,7 +21,7 @@ angular // contains angular code. The pom of this peoject just runs npm build. D
 
 
 
-web // ....
+web // Use maven-resources-plugin to copy the angular modules built by angular maven build, into this project. The home controller forwards the request to index.html (starting page of angular UI)
 
 
 
